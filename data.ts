@@ -158,3 +158,39 @@ export const featuredProducts: Products = [
     ],
   },
 ];
+
+type Menu = {
+  id: number;
+  slug: string;
+  title: string;
+  desc?: string;
+  img?: string;
+  color: string;
+}[];
+
+export const menu: Menu = [
+  {
+    id: 1,
+    slug: "pasta",
+    title: "Italian Pasta",
+    desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
+    img: "/menubg1.webp",
+    color: "white",
+  },
+  {
+    id: 2,
+    slug: "pasta",
+    title: "Italian Pasta",
+    desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
+    img: "/menubg2.webp",
+    color: "green-600",
+  },
+  {
+    id: 3,
+    slug: "pasta",
+    title: "Italian Pasta",
+    desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
+    img: "/menubg3.webp",
+    color: "white",
+  },
+];
