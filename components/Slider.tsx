@@ -7,7 +7,7 @@ const data = [
   {
     id: 1,
     title: "always cripsy, always hot, always fresh.",
-    image: "/slide1.webp",
+    image: "/slide-1.webp",
   },
   {
     id: 2,
@@ -16,13 +16,13 @@ const data = [
   },
   {
     id: 3,
-    title: "the best kitchen in town.",
+    title: "from the best kitchen in town.",
     image: "/slide3.webp",
   },
   {
     id: 4,
     title: "share with family and friends.",
-    image: "/slide2.webp",
+    image: "/slide4.webp",
   },
 ];
 
@@ -39,25 +39,26 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className='bg-fuchsia-50 py-8 w-full h-screen md:h-[calc(100vh-6rem)] flex flex-col md:flex-row items-center justify-around'>
-      <div className=' w-full h-1/2 md:w-1/2 md:h-full px-4 pb-6 md:pb-0 md:pr-0 lg:pl-24 flex flex-col items-center justify-center md:items-start space-y-6 text-center md:text-start text-[#f90057]'>
-        <h1 className='uppercase text-3xl md:text-5xl lg:text-5xl'>
+    <div className='w-full  md:h-[calc(100vh-8rem)] bg-[#FFDFB9] overflow-hidden px-4 pt-12 md:pt-0 flex flex-col md:flex-row items-center justify-center'>
+      <div className='text-center md:text-left md:pl-8 lg:pl-20'>
+        <h1 className='text-[#A4193D] uppercase text-3xl lg:text-4xl w-full md:max-w-sm lg:max-w-lg'>
           {data[currentSlide].title}
         </h1>
-        <button aria-label="order now" className='transition-colors duration-500  bg-[#f90057] hover:bg-fuchsia-200 text-fuchsia-50 hover:text-[#f90057] px-6 py-3 md:py-4 rounded-lg'>
+        <button
+          aria-label='order now'
+          className=' mt-8 transition-colors duration-500 bg-[#A4193D] hover:bg-[#f59c2f] text-[#FFDFB9] hover:text-[#A4193D] hover:shadow-[#A4193D] hover:shadow-lg px-6 py-3 md:py-4 rounded-lg'>
           ORDER NOW
         </button>
       </div>
-      <div className=' relative w-full h-1/2 md:w-1/2 md:h-full lg:w-[630px] lg:h-[630px]  flex items-center justify-center '>
+      <div className='relative w-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] h-[400px] lg:h-[500px] '>
         <Image
-          alt='slider'
+          alt='hero slider'
           fill
           priority
-          // sizes='(min-width: 500px) 50vw, 50vw'
-          src={data[currentSlide].image}
           style={{
             objectFit: "cover", // cover, contain, none
           }}
+          src={data[currentSlide].image}
         />
       </div>
     </div>

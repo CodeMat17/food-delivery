@@ -24,15 +24,14 @@ const NavHeader = () => {
   };
 
   return (
-    <div className='relative px-4 py-3 border-b-2 border-b-[#f90057]/30'>
-      <div className='flex items-center justify-between text-[#f90057]'>
+    <div className='sticky top-0 z-50 px-4 py-3 border-b-2 bg-[#FFDFB9] border-b-[#A4193D]/30'>
+      <div className='flex items-center justify-between text-[#A4193D]'>
         <Link href='/'>Logo</Link>
-        <div className="flex items-center space-x-4">
+        <div className='flex items-center space-x-4'>
           <p>D/L</p>
           <MobileMenu />
-         <DesktopMenu />
+          <DesktopMenu />
         </div>
-       
       </div>
     </div>
   );
