@@ -159,6 +159,114 @@ export const featuredProducts: Products = [
   },
 ];
 
+export const pizzas: Products = [
+  {
+    id: 1,
+    title: "Spicy Arrabbiata",
+    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    img: "/dish7.jpeg",
+    price: 2000,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 400,
+      },
+      {
+        title: "Large",
+        additionalPrice: 700,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Spicy Arrabbiata",
+    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    img: "/dish7.jpeg",
+    price: 2000,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 400,
+      },
+      {
+        title: "Large",
+        additionalPrice: 700,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Spicy Arrabbiata",
+    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    img: "/dish7.jpeg",
+    price: 2000,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 400,
+      },
+      {
+        title: "Large",
+        additionalPrice: 700,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Spicy Arrabbiata",
+    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    img: "/dish7.jpeg",
+    price: 2000,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 400,
+      },
+      {
+        title: "Large",
+        additionalPrice: 700,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Spicy Arrabbiata",
+    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    img: "/dish7.jpeg",
+    price: 2000,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 400,
+      },
+      {
+        title: "Large",
+        additionalPrice: 700,
+      },
+    ],
+  },
+];
+
 type Menu = {
   id: number;
   slug: string;
