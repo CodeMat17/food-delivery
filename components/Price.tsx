@@ -5,7 +5,7 @@ import { MdAddShoppingCart } from "react-icons/md";
 type Props = {
   id: number;
   price: number;
-  options?: { title: string; addittionalPrice: number }[];
+  options?: { title: string; additionalPrice: number }[];
 };
 
 const Price = ({ id, price, options }: Props) => {
