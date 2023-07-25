@@ -18,7 +18,7 @@ const CategoryPage = () => {
               <Image src={item.img} alt='' fill />
             </div>
           )}
-          <div className='w-full flex items-center justify-between'>
+          <div className='mt-4 w-full flex items-center justify-between'>
             <h2 className='font-semibold '>{item.title}</h2>
             <p className='group-hover:hidden '>N{item.price}</p>
             <button aria-label="add to cart" className='hidden group-hover:block text-sm rounded-full text-white bg-[#A4193D] p-2  transition-colors duration-700'>

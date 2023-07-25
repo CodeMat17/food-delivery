@@ -267,6 +267,28 @@ export const pizzas: Products = [
   },
 ];
 
+export const singleProduct: Product = {
+  id: 1,
+  title: "Home Food",
+  desc: "This is the perfect home food for you, family and friends",
+  img: "/dish7.jpeg",
+  price: 5000,
+  options: [
+    {
+      title: "Small",
+      additionalPrice: 0,
+    },
+    {
+      title: "Medium",
+      additionalPrice: 4,
+    },
+    {
+      title: "Large",
+      additionalPrice: 6,
+    },
+  ],
+};
+
 type Menu = {
   id: number;
   slug: string;
