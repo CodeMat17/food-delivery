@@ -4,24 +4,24 @@ const DesktopMenu = () => {
   return (
     <div className='hidden sm:flex space-x-1 transition-colors duration-500'>
       <Link
-        href='#'
+        href='/'
         className='px-4 py-2 rounded-lg tracking-wider transition-colors duration-700 hover:bg-orange-100'>
         HOME
       </Link>
       <Link
-        href='#'
+        href='/menu'
         className='px-4 py-2 rounded-lg tracking-wider transition-colors duration-700 hover:bg-orange-100'>
         MENU
       </Link>
       <Link
-        href='#'
+        href='/cart'
         className='px-4 py-2 rounded-lg tracking-wider transition-colors duration-700 hover:bg-orange-100'>
-        ORDERS
+        CART
       </Link>
       <Link
-        href='#'
+        href='/orders'
         className='px-4 py-2 rounded-lg tracking-wider transition-colors duration-700 hover:bg-orange-100'>
-        CARK
+        ORDERS
       </Link>
     </div>
   );

@@ -1,3 +1,5 @@
+import { UUID } from "crypto";
+
 type Product = {
   id: number;
   title: string;
@@ -322,5 +324,44 @@ export const menu: Menu = [
     desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
     img: "/menubg3.webp",
     color: "white",
+  },
+];
+
+type Orders = {
+  id: string;
+  date: string;
+  price: number;
+  status: string;
+  product: string;
+}[];
+
+export const order: Orders = [
+  {
+    id: "3654-0987-1253-4091",
+    date: "May 12, 2023",
+    price: 23400,
+    product: "/dish1.webp",
+    status: "Delivered",
+  },
+  {
+    id: "3654-0987-1253-4092",
+    date: "May 29, 2023",
+    price: 23400,
+    product: "/dish2.jpeg",
+    status: "Delivered",
+  },
+  {
+    id: "3654-0987-1253-4093",
+    date: "Jun 02, 2023",
+    price: 23400,
+    product: "/dish3.jpeg",
+    status: "Delivered",
+  },
+  {
+    id: "3654-0987-1253-4094",
+    date: "Jun 12, 2023",
+    price: 23400,
+    product: "/dish4.jpeg",
+    status: "Delivered",
   },
 ];
