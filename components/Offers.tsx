@@ -1,8 +1,10 @@
-import Image from "next/image";
 import dynamic from "next/dynamic";
-import CountDown from "./CountDown";
+import Image from "next/image";
+import OffersdModal from "./OffersModal";
 
-const NoSSRCountdown = dynamic(() => import('@/components/CountDown'), {ssr: false});
+const NoSSRCountdown = dynamic(() => import("@/components/CountDown"), {
+  ssr: false,
+});
 
 const Offers = () => {
   return (
@@ -14,11 +16,8 @@ const Offers = () => {
           Roasted with native African spices. Just a few left.
         </p>
         <NoSSRCountdown />
-        <button
-          aria-label='order now'
-          className='transition-colors duration-500 ease-in-out bg-[#A4193D] hover:bg-[#FFDFB9] hover:text-[#A4193D] px-6 py-4 rounded-lg tracking-widest'>
-          Order Now
-        </button>
+
+        <OffersdModal />
       </div>
 
       <div className='relative p-6 flex items-center justify-center overflow-hidden rounded-full'>

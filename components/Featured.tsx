@@ -25,10 +25,6 @@ const Featured = () => {
               <span className='text-lg font-semibold py-2'>
                 ₦{product.price}
               </span>
-              <button aria-label='add to cart button' className='bg-[#A4193D] text-[#FFDFB9] px-4 py-2 rounded-full'>
-                Add to Cart
-              </button>
-
               <FeaturedModal />
             </div>
           </div>
