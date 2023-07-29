@@ -7,22 +7,22 @@ const data = [
   {
     id: 1,
     title: "always cripsy, always hot, always fresh.",
-    image: "/slide-1.webp",
+    image: "/hero4.webp",
   },
   {
     id: 2,
     title: "we deliver your orders to your door step.",
-    image: "/slide2.webp",
+    image: "/hero2.webp",
   },
   {
     id: 3,
     title: "from the best kitchen in town.",
-    image: "/slide3.webp",
+    image: "/hero3.webp",
   },
   {
     id: 4,
     title: "share with family and friends.",
-    image: "/slide4.webp",
+    image: "/hero1.webp",
   },
 ];
 
@@ -39,9 +39,9 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className='w-full  md:h-[calc(100vh-8rem)] bg-[#FFDFB9] overflow-hidden px-4 pt-12 md:pt-0 flex flex-col md:flex-row items-center justify-center'>
+    <div className='w-full  md:h-[calc(100vh-4rem)] bg-[#FFDFB9] overflow-hidden px-4 pt-12 md:pt-0 flex flex-col md:flex-row items-center justify-around '>
       <div className='text-center md:text-left md:pl-8 lg:pl-20'>
-        <h1 className='text-[#A4193D] uppercase text-3xl lg:text-4xl w-full md:max-w-sm lg:max-w-lg'>
+        <h1 className='text-[#A4193D] uppercase text-3xl lg:text-4xl w-full md:max-w-sm lg:max-w-md'>
           {data[currentSlide].title}
         </h1>
         <button
@@ -50,7 +50,7 @@ const Slider = () => {
           ORDER NOW
         </button>
       </div>
-      <div className='relative w-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] h-[400px] lg:h-[500px] '>
+      <div className='relative my-8 w-[350px] h-[350px] md:w-[400px] md:h-[400px] lg:w-[430px] lg:h-[430px] rounded-full overflow-hidden'>
         <Image
           alt='hero slider'
           fill

@@ -14,6 +14,7 @@ export default function Example() {
           <>
             <div>
               <Menu.Button
+                aria-label='open setOpenMenu'
                 className={`flex transition-all transform duration-300 ${
                   open ? "rotate-180" : ""
                 }`}>
@@ -34,6 +35,7 @@ export default function Example() {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
+                        aria-label='home link'
                         href='/'
                         className={`${
                           active ? "bg-[#A4193D] text-white" : "text-[#A4193D]"
@@ -45,6 +47,7 @@ export default function Example() {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
+                        aria-label='menu link'
                         href='/menu'
                         className={`${
                           active ? "bg-[#A4193D] text-white" : "text-[#A4193D]"
@@ -57,6 +60,7 @@ export default function Example() {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
+                        aria-label='cart link'
                         href='/cart'
                         className={`${
                           active ? "bg-[#A4193D] text-white" : "text-[#A4193D]"
@@ -68,6 +72,7 @@ export default function Example() {
                   <Menu.Item>
                     {({ active }) => (
                       <Link
+                        aria-label='orders link'
                         href='orders'
                         className={`${
                           active ? "bg-[#A4193D] text-white" : "text-[#A4193D]"

@@ -7,8 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation: { blob: "blob 3s infinite" },
+      animation: {
+        wiggle: "wiggle 3s ease-in-out infinite",
+        blob: "blob 3s infinite",
+      },
+
       keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-35deg)" },
+          "50%": { transform: "rotate(35deg)" },
+        },
+
         blob: {
           "0%": {
             transform: "translate(0px, 0px) scale(1)",
