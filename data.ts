@@ -14,10 +14,10 @@ type Products = Product[];
 export const featuredProducts: Products = [
   {
     id: 1,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    title: "Salad dish with grilled chicken",
+    desc: "Garnished with  red and yellow bell peppers, cherry tomatoes, red onions, cucumbers, olives, chickpeas, feta cheese and a green dressing.",
     img: "/dish1.webp",
-    price: 2000,
+    price: 6300,
     options: [
       {
         title: "Small",
@@ -35,31 +35,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 2,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    title: "salad dish with chickpeas",
+    desc: "Garnished with tomatoes, cucumbers, and avocado. Added also are grilled vegetables, eggplant and zucchini.",
     img: "/dish2.jpeg",
-    price: 2000,
-    options: [
-      {
-        title: "Small",
-        additionalPrice: 0,
-      },
-      {
-        title: "Medium",
-        additionalPrice: 400,
-      },
-      {
-        title: "Large",
-        additionalPrice: 700,
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
-    img: "/dish3.jpeg",
-    price: 2000,
+    price: 5800,
     options: [
       {
         title: "Small",
@@ -77,10 +56,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 4,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    title: "combo salad",
+    desc: "Garnished with grilled chicken, chickpeas, red cabbage, red bell peppers, red onions, cucumbers, cherry tomatoes, and mixed greens.",
     img: "/dish4.jpeg",
-    price: 2000,
+    price: 8000,
     options: [
       {
         title: "Small",
@@ -98,10 +77,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 5,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    title: "Supa salad",
+    desc: "Garnished with cherry tomatoes, chickpeas, avocado, red onion, cucumber, bell peppers, and quinoa.",
     img: "/dish5.jpeg",
-    price: 2000,
+    price: 8100,
     options: [
       {
         title: "Small",
@@ -119,10 +98,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 6,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    title: "falafel salad",
+    desc: "Garnished with falafel, cherry tomatoes, chickpeas, avocado, olives, and roasted zucchini.",
     img: "/dish6.jpeg",
-    price: 2000,
+    price: 7500,
     options: [
       {
         title: "Small",
@@ -140,10 +119,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 7,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
+    title: "arugula salad",
+    desc: "Garnished with arugula, sliced avocado, sliced yellow squash, sliced red onion, sliced carrots, cherry tomatoes, sliced almonds, and sliced garlic.",
     img: "/dish7.jpeg",
-    price: 2000,
+    price: 7000,
     options: [
       {
         title: "Small",
