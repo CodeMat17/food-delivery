@@ -140,13 +140,13 @@ export const featuredProducts: Products = [
   },
 ];
 
-export const pizzas: Products = [
+export const salad: Products = [
   {
     id: 1,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
-    img: "/dish7.jpeg",
-    price: 2000,
+    title: "Chicken Salad",
+    desc: "Garnished with  red and yellow bell peppers, cherry tomatoes, red onions, cucumbers, olives, chickpeas, feta cheese and a green dressing.",
+    img: "/dish2.jpeg",
+    price: 6000,
     options: [
       {
         title: "Small",
@@ -164,10 +164,10 @@ export const pizzas: Products = [
   },
   {
     id: 2,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
-    img: "/dish7.jpeg",
-    price: 2000,
+    title: "Chickpeas Salad",
+    desc: "Garnished with tomatoes, cucumbers, and avocado. Added also are grilled vegetables, eggplant and zucchini.",
+    img: "/dish1.webp",
+    price: 5800,
     options: [
       {
         title: "Small",
@@ -185,10 +185,10 @@ export const pizzas: Products = [
   },
   {
     id: 3,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
-    img: "/dish7.jpeg",
-    price: 2000,
+    title: "Combo Salad",
+    desc: "Garnished with grilled chicken, chickpeas, red cabbage, red bell peppers, red onions, cucumbers, cherry tomatoes, and mixed greens.",
+    img: "/dish4.jpeg",
+    price: 8000,
     options: [
       {
         title: "Small",
@@ -206,10 +206,10 @@ export const pizzas: Products = [
   },
   {
     id: 4,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
-    img: "/dish7.jpeg",
-    price: 2000,
+    title: "Supa Salad",
+    desc: "Garnished with cherry tomatoes, chickpeas, avocado, red onion, cucumber, bell peppers, and quinoa.",
+    img: "/dish5.jpeg",
+    price: 8100,
     options: [
       {
         title: "Small",
@@ -227,10 +227,10 @@ export const pizzas: Products = [
   },
   {
     id: 5,
-    title: "Spicy Arrabbiata",
-    desc: "fgfgfh bbfgb bdbdg bc bfgjd bbfjjf jjfkdkd kfkkf kdkdkd.",
-    img: "/dish7.jpeg",
-    price: 2000,
+    title: "Falafel Salad",
+    desc: "Garnished with falafel, cherry tomatoes, chickpeas, avocado, olives, and roasted zucchini.",
+    img: "/dish6.jpeg",
+    price: 7500,
     options: [
       {
         title: "Small",
