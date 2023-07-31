@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import SliderModal from "./SliderModal";
 
 const data = [
   {
@@ -44,11 +45,7 @@ const Slider = () => {
         <h1 className='text-[#A4193D] uppercase text-3xl lg:text-4xl w-full md:max-w-sm lg:max-w-md'>
           {data[currentSlide].title}
         </h1>
-        <button
-          aria-label='order now'
-          className=' mt-8 transition-colors duration-500 bg-[#A4193D] hover:bg-[#f59c2f] text-[#FFDFB9] hover:text-[#A4193D] hover:shadow-[#A4193D] hover:shadow-lg px-6 py-3 md:py-4 rounded-lg'>
-          ORDER NOW
-        </button>
+        <SliderModal />
       </div>
       <div className='relative my-8 w-[350px] h-[350px] md:w-[400px] md:h-[400px] lg:w-[430px] lg:h-[430px] rounded-full overflow-hidden'>
         <Image

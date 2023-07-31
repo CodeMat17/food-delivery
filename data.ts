@@ -1,4 +1,4 @@
-import { UUID } from "crypto";
+
 
 type Product = {
   id: number;
@@ -282,25 +282,25 @@ type Menu = {
 export const menu: Menu = [
   {
     id: 1,
-    slug: "pasta",
-    title: "Italian Pasta",
-    desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
+    slug: "standard-salad",
+    title: "Standard Salad",
+    // desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
     img: "/menubg1.webp",
     color: "white",
   },
   {
     id: 2,
-    slug: "pasta",
-    title: "Italian Pasta",
-    desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
+    slug: "fruity-salad",
+    title: "Fruity Salad",
+    // desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
     img: "/menubg2.webp",
     color: "green-600",
   },
   {
     id: 3,
-    slug: "pasta",
-    title: "Italian Pasta",
-    desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
+    slug: "chicken-salad",
+    title: "Chiken Salad",
+    // desc: "jjf nnghgb nvbbg bfbfghdjd nnvbvb nvbvbf ",
     img: "/menubg3.webp",
     color: "white",
   },
