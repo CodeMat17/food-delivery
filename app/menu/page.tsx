@@ -13,7 +13,7 @@ const MenuPage = () => {
             className='w-full h-1/3 sm:h-1/2 bg-cover px-8 py-8 sm:py-16 shadow-xl border border-green-200'
             style={{ backgroundImage: `url(${category.img})` }}>
             <div className={`text-${category.color} w-1/2`}>
-              <h2 className='uppercase font-semibold text-xl text-left'>
+              <h2 className='uppercase font-semibold text-2xl text-left'>
                 {category.title}
               </h2>
               <p className='text-sm my-4 sm:my-8'>{category.desc}</p>
